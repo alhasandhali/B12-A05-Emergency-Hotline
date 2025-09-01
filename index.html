@@ -34,49 +34,59 @@
     <!-- Header Start -->
     <header>
       <!-- Navbar Start -->
-      <nav class="py-5">
-        <div class="w-[1120px] mx-auto flex justify-between">
-          <div class="left-side flex">
+      <nav class="py-5 px-4">
+        <div
+          class="max-w-[1120px] w-full mx-auto flex flex-wrap justify-between items-center gap-4"
+        >
+          <div class="left-side flex items-center">
             <img
               class="w-[50px] h-[50px]"
               src="assets/logo.png"
               alt="Bangladesh Government Logo"
             />
             <h1
-              class="ml-3 text-[#006747] font-bold text-2xl hind-madurai-font leading-none pt-1"
+              class="ml-3 text-[#006747] font-bold text-xl sm:text-2xl hind-madurai-font leading-none pt-1"
             >
               Emergency <span class="block">Service</span>
             </h1>
           </div>
-          <div class="right-side flex">
+          <div class="right-side flex flex-wrap gap-3">
             <div
-              class="btn-1 bg-[#41FF6B1A] flex justify-center items-center px-8 rounded-full"
+              class="btn-1 bg-[#41FF6B1A] flex items-center px-5 sm:px-8 rounded-full"
             >
-              <p id="liveNumber" class="font-bold text-lg hind-madurai-font">
+              <p
+                id="liveNumber"
+                class="font-bold text-base sm:text-lg hind-madurai-font"
+              >
                 0
               </p>
               <img
-                class="w-[30px] h-[30px] ml-1"
+                class="w-[24px] h-[24px] ml-1"
                 src="assets/heart.png"
                 alt="heart"
               />
             </div>
             <div
-              class="btn-1 bg-[#41FF6B1A] flex justify-center items-center px-8 rounded-full ml-3"
+              class="btn-1 bg-[#41FF6B1A] flex items-center px-5 sm:px-8 rounded-full"
             >
-              <p id="callNumber" class="font-bold text-lg hind-madurai-font">
+              <p
+                id="callNumber"
+                class="font-bold text-base sm:text-lg hind-madurai-font"
+              >
                 100
               </p>
               <img
-                class="w-[30px] h-[30px] ml-1"
+                class="w-[24px] h-[24px] ml-1"
                 src="assets/coin.png"
                 alt="heart"
               />
             </div>
             <div
-              class="btn-1 bg-[#00A63E] flex justify-center items-center px-8 rounded-full ml-3"
+              class="btn-1 bg-[#00A63E] flex items-center px-5 sm:px-8 rounded-full"
             >
-              <p class="font-bold text-lg hind-madurai-font text-white">
+              <p
+                class="font-bold text-base sm:text-lg hind-madurai-font text-white"
+              >
                 <span id="copyNumber">2</span> Copy
               </p>
             </div>
@@ -87,18 +97,22 @@
       <!-- Banner Start -->
       <section
         id="banner"
-        class="py-5 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]"
+        class="py-6 px-4 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]"
       >
-        <div class="w-[1120px] mx-auto text-center">
+        <div class="max-w-[1120px] w-full mx-auto text-center">
           <img
-            class="mx-auto w-[92px] h-[92px]"
+            class="mx-auto w-[72px] sm:w-[92px] h-auto"
             src="assets/logo-dark.png"
             alt="Bangladesh Government logo-dark"
           />
-          <h1 class="font-bold hind-madurai-font text-3xl text-white my-2">
+          <h1
+            class="font-bold hind-madurai-font text-2xl sm:text-3xl text-white my-2"
+          >
             Emergency Service Directory
           </h1>
-          <p class="font-semibold hind-madurai-font text-base text-white">
+          <p
+            class="font-semibold hind-madurai-font text-sm sm:text-base text-white"
+          >
             Government Emergency Services at Your Fingertip – A Project by
             Government of the People’s Republic of Bangladesh
           </p>
@@ -109,12 +123,12 @@
     <!-- Header End -->
     <!-- Main Section Start -->
     <main>
-      <section id="main-part" class="py-5 bg-[#F5FFF6]">
-        <div class="w-[1120px] mx-auto">
-          <div class="grid grid-cols-4 gap-4">
-            <!-- Left Side -->
-            <div class="col-span-3">
-              <div class="grid grid-cols-3 gap-4">
+      <section id="main-part" class="py-6 px-4 bg-[#F5FFF6]">
+        <div class="max-w-[1120px] w-full mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <!-- Left side -->
+            <div class="md:col-span-3">
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 <!-- Card-1 -->
                 <div class="card bg-white p-3 rounded-md">
                   <div class="flex justify-between items-center mb-4">
@@ -143,7 +157,7 @@
                     999
                   </h3>
                   <p
-                    class="hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl inline-block"
+                    class="w-fit hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl"
                   >
                     All
                   </p>
@@ -188,7 +202,7 @@
                     999
                   </h3>
                   <p
-                    class="hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl inline-block"
+                    class="w-fit hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl"
                   >
                     Police
                   </p>
@@ -235,7 +249,7 @@
                     999
                   </h3>
                   <p
-                    class="hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl inline-block"
+                    class="w-fit hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl"
                   >
                     Fire
                   </p>
@@ -280,7 +294,7 @@
                     1994-999999
                   </h3>
                   <p
-                    class="hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl inline-block"
+                    class="w-fit hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl"
                   >
                     Health
                   </p>
@@ -327,7 +341,7 @@
                     109
                   </h3>
                   <p
-                    class="hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl inline-block"
+                    class="w-fit hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl"
                   >
                     Help
                   </p>
@@ -374,7 +388,7 @@
                     106
                   </h3>
                   <p
-                    class="hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl inline-block"
+                    class="w-fit hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl"
                   >
                     Govt.
                   </p>
@@ -421,7 +435,7 @@
                     16216
                   </h3>
                   <p
-                    class="hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl inline-block"
+                    class="w-fit hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl"
                   >
                     Electricity
                   </p>
@@ -466,7 +480,7 @@
                     16445
                   </h3>
                   <p
-                    class="hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl inline-block"
+                    class="w-fit hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl"
                   >
                     NGO
                   </p>
@@ -513,7 +527,7 @@
                     163
                   </h3>
                   <p
-                    class="hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl inline-block"
+                    class="w-fit hind-madurai-font text-[12px] bg-gray-200 text-gray-600 px-5 py-2 rounded-3xl"
                   >
                     Travel
                   </p>
@@ -536,7 +550,7 @@
             </div>
 
             <!-- Right Side  -->
-            <div class="col-span-1 p-4 rounded-md bg-white">
+            <div class="md:col-span-1 p-4 rounded-md bg-white mt-4 md:mt-0">
               <div class="flex justify-between items-center py-4">
                 <div class="font-bold">
                   <i class="fa-regular fa-clock mx-1 text-[18px]"></i>Call
