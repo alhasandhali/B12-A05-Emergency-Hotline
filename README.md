@@ -37,7 +37,7 @@
 Steps:
 1. **Create the element** using `document.createElement()`.
 2. **Set attributes / content** like `textContent`, `innerHTML`, `classList`, etc.
-3. **Insert it** using `appendChild()`, `append()`, `prepend()`, or `insertBefore()`.
+3. **Insert it** using `appendChild()` or `append()`.
 
 Example:
 ```js
