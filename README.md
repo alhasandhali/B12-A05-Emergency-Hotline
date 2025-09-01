@@ -46,7 +46,6 @@ const newDiv = document.createElement("div");
 newDiv.textContent = "Hello World!";
 newDiv.classList.add("greeting");
 
-// Insert into body
 document.body.appendChild(newDiv);
 ```
 ## 3. What is Event Bubbling and how does it work?
@@ -90,6 +89,3 @@ Event delegation is a technique where attach a single event listener to a parent
 
 - **preventDefault()** → Stops the browser’s default action.  
 - **stopPropagation()** → Stops the event from bubbling up or down the DOM tree.  
-
-// Insert into body
-document.body.appendChild(newDiv);
