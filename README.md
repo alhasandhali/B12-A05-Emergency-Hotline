@@ -45,6 +45,13 @@ Steps:
 
 Example:
 ```js
+const newDiv = document.createElement("div");
+newDiv.textContent = "Hello World!";
+newDiv.classList.add("greeting");
+
+// Insert into body
+document.body.appendChild(newDiv);
+```
 ## 3. What is Event Bubbling and how does it work?
 
 Event bubbling is when an event starts from the target element and then moves upward through its parent elements until it reaches the document.  
